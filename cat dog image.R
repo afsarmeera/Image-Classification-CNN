@@ -70,7 +70,7 @@ saveRDS(dogs_data, "dog.rds")
 
 
 
-
+library(dplyr)
 library(caret)
 ## Bind rows in a single dataset
 complete_set <- rbind(cats_data, dogs_data)
